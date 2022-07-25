@@ -111,42 +111,6 @@
                 <div class="col-lg-6">
                     <h6 class="text-primary text-uppercase"  >// About Us //</h6>
                     <h1 class="mb-4"><span class="text-primary">Ger's Garage</span> Is The Best Place For Your Auto Care</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row g-4 mb-3 pb-3">
-                        <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="d-flex">
-                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
-                                    <span class="fw-bold text-secondary">01</span>
-                                </div>
-                                <div class="ps-3">
-                                    <h6>Title</h6>
-                                    <span>Diam dolor diam ipsum sit amet diam et eos</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
-                            <div class="d-flex">
-                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
-                                    <span class="fw-bold text-secondary">02</span>
-                                </div>
-                                <div class="ps-3">
-                                    <h6>Title</h6>
-                                    <span>Diam dolor diam ipsum sit amet diam et eos</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
-                            <div class="d-flex">
-                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
-                                    <span class="fw-bold text-secondary">03</span>
-                                </div>
-                                <div class="ps-3">
-                                    <h6>Title</h6>
-                                    <span>Diam dolor diam ipsum sit amet diam et eos</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -196,7 +160,6 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="mb-3">Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
@@ -214,7 +177,6 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="mb-3">Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
@@ -232,7 +194,6 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="mb-3">Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
@@ -250,7 +211,6 @@
                                 </div>
                                 <div class="col-md-6">
                                     <h3 class="mb-3">Years Of Experience In Auto Servicing</h3>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
                                     <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
@@ -272,15 +232,12 @@
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-6 py-5">
-                    <div class="py-5">
-                        <h1 class="text-white mb-4">Lorem Ipsum</h1>
-                        <p class="text-white mb-0">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
-                    </div>
+                  
                 </div>
                 <div class="col-lg-6" id="book">
                     <div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
                         <h1 class="text-white mb-4">Book For A Service</h1>
-                        <form>
+                        <form action="{{ route('login') }}">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
@@ -313,10 +270,10 @@
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text"
+                                        <input type="date"
                                             class="form-control border-0 datetimepicker-input"
-                                            placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
-                                    </div>
+                                            placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;" id="date_picker">
+                                        </div>
                                 </div>
                                 <div class="col-12">
                                     <textarea class="form-control border-0" placeholder="Special Request"></textarea>
@@ -352,6 +309,16 @@
     <script src="{{ asset ('assets/lib/tempusdominus/js/moment-timezone.min.js') }}"></script>
     <script src="{{ asset ('assets/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 
-    <!-- Template Javascript -->
+    <!-- Template Javascript for date picker-->
     <script src="{{ asset ('assets/js/main.js')}}"></script>
+
+    <script language="javascript">
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0');
+        var yyyy = today.getFullYear();
+    
+        today = yyyy + '-' + mm + '-' + dd;
+        $('#date_picker').attr('min',today);
+    </script>
 @endsection
