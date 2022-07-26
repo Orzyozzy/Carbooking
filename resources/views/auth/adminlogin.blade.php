@@ -10,7 +10,7 @@
                 <img src="{{ asset('assets/img/garagelogo.png') }}" alt="">
             </div>
             <div class="text-center mt-4 name">
-                <div>{{ __('Admin') }}</div>
+                <div>{{ __('Staff Only') }}</div>
             </div>
           
                 <div class="form-field d-flex align-items-center">
@@ -36,11 +36,7 @@
                     {{ __('Login') }}
                 </button>
           
-            <div class="text-center fs-6">
-                @if (Route::has('password.request'))
-                <a  href="{{ route('password.request') }}"> {{ __('Forgot Your Password?') }} </a> or <a href="{{ route('register') }}">Sign up</a>
-                @endif
-            </div>
+    
             <div class="text-center fs-6">
              
                 <a  href="{{ route('login') }}"> {{ __('Sign in as User') }}</a>
