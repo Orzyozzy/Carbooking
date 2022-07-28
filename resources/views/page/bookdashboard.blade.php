@@ -1,9 +1,9 @@
 
-@extends('layouts.adminpge')
+@extends('layouts.book')
 @section('section')
    
     <div class="card-body bg-info text-white mailbox-widget pb-0">
-        <h2 class="text-white pb-3">Pending Booking Dashboard</h2>
+        <h2 class="text-white pb-3">Booking Dashboard</h2>
         <ul class="nav nav-tabs custom-tab border-bottom-0 mt-4" id="myTab" role="tablist">
             
             <li class="nav-item">
@@ -12,14 +12,7 @@
                     <span class="d-none d-md-block"> INBOX</span>
                 </a>
             </li>
-    
-            <li class="nav-item">
-                <a class="nav-link" id="approved-tab" data-toggle="tab" aria-controls="approve" href="#approve" role="tab" aria-selected="false">
-                    <span class="d-block d-md-none"><i class="ti-export"></i></span>
-                    <span class="d-none d-md-block">APPROVED BOOKINGS</span>
-                </a>
-            </li>
-    
+
         </ul>
     </div>
 
@@ -35,28 +28,53 @@
                         <div>
                             <div class="row p-4 no-gutters align-items-center">
                                 <div class="col-sm-12 col-md-6">
-                                    <h3 class="font-light mb-0"><i class="ti-email mr-2"></i># of Bookings</h3>
+                                    <h3 class="font-light mb-0"><i class="ti-email mr-2"></i></h3>
                                 </div>
-                                <div class="col-sm-12 col-md-6">
-                                    <ul class="list-inline dl mb-0 float-left float-md-right">
-                                        <li class="list-inline-item text-info mr-3">
-                                            <a href="#">
-                                                <button class="btn btn-circle btn-success text-white" href="javascript:void(0)">
-                                                    <i class="fa fa-check"></i>
-                                                </button>
-                                                <span class="ml-2 font-normal text-dark">Accept</span>
-                                            </a>
-                                        </li>
-                                        <li class="list-inline-item text-danger">
-                                            <a href="#">
-                                                <button class="btn btn-circle btn-danger text-white" href="javascript:void(0)">
-                                                    <i class="fa fa-close"></i>
-                                                </button>
-                                                <span class="ml-2 font-normal text-dark">Decline</span>
-                                            </a>
-                                        </li>
+                            </div><div class="row">
+                                <div class="col-md-12">
+                                    <div class="card-body p-0">
+                                        <table class="table table-striped custom-table mb-0 datatable">
+                                            <thead>
+                                                <tr>
+                                                    <th>Medication's Name</th>
+                                                    <th>Type of Drug</th>
+                                                    <th>Contact Number</th>
+                                                    <th>Dosage</th>
+                                                    <th>From</th>
+                                                    <th>To</th>
+                                                    <th>Frequency</th>
+                                                    <th>Days</th>                         
+                                                    <th class="text-right">Actions</th>
+                                                </tr>
+                                            </thead>
+                    
+                                            <tbody>
+                                                <!--Data table for reminder--> 
+                                            
+                                                    <tr>
+                                                    <td hidden class="id"></td>
+                                                    <td class="medname"></td>
+                                                    <td class="drugtype"></td>
+                                                    <td class="contact_num"></td>
+                                                    <td class="dosage"></td>
+                                                    <td hidden class="from_date"></td>
+                                                
+                                                       
+                                                        </tr>
+                                             
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <nav aria-label="Page navigation example" >
+                                    <ul class="pagination justify-content-end">
+                                      <li class="page-item disabled">       
+                                      </li>
+                                       <!-- pagination number--> 
+                          
+                                      </li>
                                     </ul>
-                                </div>
+                                  </nav>
                             </div>
                             <!-- Mail list-->
                             <div class="table-responsive">
@@ -96,19 +114,7 @@
                                 </table>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="approve" aria-labelledby="approved-tab" role="tabpanel">
-                        <div class="row p-3 text-dark">
-                            <div class="col-md-6">
-                                <h3 class="font-light">Lets check profile</h3>
-                                <h4 class="font-light">you can use it with the small code</h4>
-                            </div>
-                            <div class="col-md-6 text-right">
-                                <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a.</p>
-                            </div>
-                        </div>
-                    </div>
-                   
+                    </div>              
                 </div>
             </div>
         </div>

@@ -21,15 +21,22 @@ use App\Http\Controllers\BookingController;
 
 Route::get('/', function ()
 {
+
     return view('homepage');
 });
 
-
+Route::get('/bookings.bookme', function () {
+    return view('page.bookme');
+});
+Route::get('/book.dashboard', function () {
+    return view('page.bookdashboard');
+});
 
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\UserController::class, 'index'])->name('home');
+
 
 Route::controller(BookingController::class)->group(function () {
 Route::post('add', 'addData')->middleware('auth')->name('add');
